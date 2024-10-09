@@ -1,0 +1,26 @@
+/* Styling for the preview area */
+#image {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 300px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Style for the images */
+.gallery-image {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.gallery-image:hover, .gallery-image:focus {
+    border-color: blue;
+    cursor: pointer;
+    outline: none;
+}
