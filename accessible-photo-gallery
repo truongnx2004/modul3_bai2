@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">		
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="initializeGallery()">
+    <div id="image">
+        Hover over or focus on an image below to display here.
+    </div>
+
+    <!-- Image Gallery -->
+    <figure>
+        <img class="gallery-image" src="images/img1.jpg" alt="A beautiful landscape of mountains" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+    <figure>
+        <img class="gallery-image" src="images/img2.jpg" alt="A serene beach view at sunset" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+    <figure>
+        <img class="gallery-image" src="images/img3.jpg" alt="A forest with tall trees in autumn" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+    <figure>
+        <img class="gallery-image" src="images/img4.jpg" alt="A close-up shot of a flower in bloom" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+    <figure>
+        <img class="gallery-image" src="images/img5.jpg" alt="A city skyline during the night with lights" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+    <figure>
+        <img class="gallery-image" src="images/img6.jpg" alt="A snowy landscape with a frozen lake" tabindex="0" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+    </figure>
+
+    <script src="script.js"></script>
+</body>
+</html>
